@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divHeader {
+    margin: 15px;
+}
+
+.divBody {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 14px;
+}
+
+.references {
+    width: 45%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.divInformation {
+    position: relative;
+    float: left;
+}
+
+#hotelName {
+    font-size: 20px;
+}
+
+.divPhoto {
+    position: relative;
+    float: right;
+}
+
+#hotelPhoto {
+    width: 150px;
+    height: 150px;
+}
+
+.assessment {
+    width: 45%;
+    height: 90px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+}
+
+.punctuation {
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+#punctuation {
+    color: orange;
+}
